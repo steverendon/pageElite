@@ -1,0 +1,138 @@
+.navbar-text {
+    color: black !important;
+}
+
+.logo {
+    width: 70px;
+}
+
+.bg-elite {
+    background-color: #0f01de;
+}
+
+.btn-elite {
+    background-color: #bdf80a;
+    color: #0f01de;
+}
+
+.btn-elite:hover {
+    background-color: #f8c50a;
+    color: #0f01de;
+}
+
+.btn-elite-blue {
+    background-color: #0f01de;
+    color: #fff;
+}
+
+.btn-elite-blue:hover {
+    background-color: #0096de;
+    color: #fff;
+}
+
+.text-elite {
+    color: #bdf80a;
+}
+
+.text-elite-blue {
+    color: #0f01de !important;
+}
+
+.text-elite:hover {
+    color: #f8c50a;
+}
+
+.navbar-light {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #009CDE !important;
+}
+
+.form-index {
+    height: 196px;
+}
+
+.img-web {
+    width: 100%;
+}
+
+.phone {
+    background: #bdf80a;
+}
+
+.card img {
+    max-height: 180px;
+    min-height: 180px;
+}
+
+.shine{
+   background-image: url('img/oficina2.jpg');
+ /*   background-image: url('img/dining-room-3108037_1280.jpg'); */
+   background-attachment: fixed;
+   text-shadow: 2px, 2px, 2px blue;
+   position: relative;
+   filter: grayscale(60%);
+}
+
+.shine h1 {
+    text-shadow: -2px -2px 2px rgba(255,255,255,.1), 1px 2px 2px rgba(5,5,5,.5);
+}
+
+.shine .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.font-8{
+    font-size: 7vw;
+}
+
+.font-7{
+    font-size: 7vw;
+}
+
+.font-6{
+    font-size: 6vw;
+}
+
+.font-5{
+    font-size: 5vw;
+}
+
+.font-4{
+    font-size: 4vw;
+}
+
+.font-3{
+    font-size: 3vw;
+}
+
+.font-2{
+    font-size: 2vw;
+}
+
+.font-1{
+    font-size: 1vw;
+}
+
+.img-become-partners {
+    background-image: url('img/building.jpg');
+    height: 100px;
+    padding: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clients {
+    width: 200px;
+}
+
+footer a {
+    color: #fff !important;
+}
