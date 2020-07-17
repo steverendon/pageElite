@@ -1,13 +1,20 @@
+*{
+    color: #051948;
+}
 .navbar-text {
     color: black !important;
 }
 
-.logo {
+.logo {nav-link
     width: 70px;
 }
 
 .bg-elite {
     background-color: #0f01de;
+}
+
+.bg-elite-yellow {
+    background-color: #bdf80a;
 }
 
 .btn-elite {
@@ -38,6 +45,10 @@
     color: #0f01de !important;
 }
 
+.text-font {
+    color: #051948;
+}
+
 .text-elite:hover {
     color: #f8c50a;
 }
@@ -47,7 +58,11 @@
 }
 
 .nav-link {
-    color: #009CDE !important;
+    font-weight: 900;
+}
+
+.text-white-important{
+    color: #fff !important;
 }
 
 .form-index {
@@ -89,35 +104,46 @@
     background-color: rgba(0, 0, 0, 0.0);
 }
 .font-8{
-    font-size: 7vw;
+    font-size: calc(0.5em + 7vw);
 }
 
 .font-7{
-    font-size: 7vw;
+    font-size: calc(0.5em + 6vw);
 }
 
 .font-6{
-    font-size: 6vw;
+    font-size: calc(0.5em + 5vw);
 }
 
 .font-5{
-    font-size: 5vw;
+    font-size: calc(0.5em + 4vw);
 }
 
 .font-4{
-    font-size: 4vw;
+    font-size: calc(0.5em + 3vw);
 }
 
 .font-3{
-    font-size: 3vw;
+    font-size: calc(0.5em + 2vw);
 }
 
 .font-2{
-    font-size: 2vw;
+    font-size: calc(0.7em + 1vw);
 }
 
 .font-1{
-    font-size: 1vw;
+    font-size: calc(0.7em + 0.5vw);
+}
+
+#img-banner {
+    background-image: url('img/imagenes_varias/manhattan.jpg');
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#request {
+    background-image: url(img/imagenes_varias/manhattan.jpg);
 }
 
 .img-become-partners {

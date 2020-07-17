@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            background-color: #0f01de;
+            text-align: center;
+            color:#fff;
+            padding: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #0f01de;
+        }
+
+        .body{
+            width: 80%;
+            margin: auto;
+        }
+
+        .text{
+           color: #01abde;
+           font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="">
+            <h1 class="header"><b>Elite Cleaning concepts</b></h1>
+        </div>
+        <h2 class=""><center>We have received your request!</center></h2>
+        <h1 class="subtitle">Your Information</h1>
+
+        <h1>Tell us about your service</h1>
+
+        <p>{{ $service->aboutService }}</p>
+
+        <h1>Details</h1>
+        <p>
+            <span class="text">Pick a date: </span>{{ $service->date }} 
+            <span class="text">Pick a time: </span>{{ $service->time }}
+            <span class="text">Type Of Service: </span>{{ $service->typeService }}
+            <br><br>
+            <span class="text">Address: </span>{{ $service->address }}
+            <span class="text">Zip Code: </span>{{ $service->zipcode }}
+            <span class="text">City: </span>{{ $service->city }}
+            <br><br>
+            <span class="text">State: </span>{{ $service->state }}
+            <span class="text">FirstName: </span>{{ $service->firstName }}
+            <span class="text">LastName: </span>{{ $service->lastName }} 
+            <br><br>
+            <span class="text">Email: </span>{{ $service->email }}
+            <span class="text">Phone: </span>{{ $service->phone }}
+            </p>
+                    
+        <div class="header">
+            <p>Sent By: Elite Cleaning Concepts<br>cs@elitecleaningconcepts.com<br>24/7 Customer Service 1 (833) 613-5483<br>©Copyright 2005 - 2020 Elite Cleaning Concepts - All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
